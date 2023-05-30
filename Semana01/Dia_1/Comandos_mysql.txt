@@ -1,0 +1,19 @@
+mysql -h localhost -u root -p
+Enter password:
+
+
+mysql> show databases
+    -> ^C
+mysql> show databases;
+
+create database cursos;
+
+USE cursos
+
+CREATE TABLE alumno(nombre VARCHAR(100) NOT NULL, email VARCHAR(200));
+
+insert into alumno values('cesar mayta','cesarmayta@gmail.com');
+
+use cursos
+
+mysql> select * from alumno;
